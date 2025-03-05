@@ -1,0 +1,14 @@
+apiversion: v2
+name: onecx-test
+version: 0.0.0
+appversion: 0.0.0
+dependencies:
+- name: helm-product
+  version: ^0
+  repository: oci://ghcr.io/onecx/charts
+  alias: product
+- name: onecx-test-operator
+  version: "*-0"
+  repository: oci://ghcr.io/onecx/charts
+  condition: "deployment.operator"
+  alias: "operator"

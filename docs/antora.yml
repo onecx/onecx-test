@@ -1,0 +1,7 @@
+name: onecx-test
+title: Test Management
+version: latest
+start_page: general:index.adoc
+nav:
+ - modules/general/nav.adoc
+ - modules/onecx-test-operator/nav.adoc

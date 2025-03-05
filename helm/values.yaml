@@ -1,0 +1,12 @@
+deployment:
+  operator: true
+
+product:
+  info:
+    data:
+      description: "OneCX Test"
+      imageUrl: ""
+      iconName: "lock"
+      displayName: "OneCX Test"
+      basePath: "/test"
+      
