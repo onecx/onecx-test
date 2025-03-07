@@ -65,6 +65,10 @@ components:
       properties:
         id:
           type: string
+        url:
+          type: string
+        service:
+          type: string
         status:
           $ref: "#/components/schemas/ExecutionStatus"
         executions:
