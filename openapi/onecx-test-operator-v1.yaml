@@ -54,12 +54,14 @@ components:
         - service
         - url
       properties:
-        "id":
+        id:
           type: string
-        "service":
+        service:
           type: string
-        "url":
+        url:
           type: string
+        quarkus:
+          type: boolean
     SecurityTestResponse:
       type: object
       properties:
