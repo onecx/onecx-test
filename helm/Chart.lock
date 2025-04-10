@@ -1,9 +1,9 @@
 dependencies:
 - name: helm-product
   repository: oci://ghcr.io/onecx/charts
-  version: 0.2.0
+  version: 0.3.0
 - name: onecx-test-operator
   repository: oci://ghcr.io/onecx/charts
   version: 1.5.0
-digest: sha256:b6c87f47523d24e9e99baad5fe7bec97d9413aa826f3b425962245350c50694b
-generated: "2025-03-25T09:57:18.328577368Z"
+digest: sha256:4e633e0c68d620e648d5c39e64e1e16f4eeacc7a41d66c64893e20cec0462036
+generated: "2025-04-10T11:33:49.432900116Z"
