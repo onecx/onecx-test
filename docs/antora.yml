@@ -4,4 +4,5 @@ version: latest
 start_page: general:index.adoc
 nav:
  - modules/general/nav.adoc
+ - modules/onecx-test-oidc/nav.adoc 
  - modules/onecx-test-operator/nav.adoc
