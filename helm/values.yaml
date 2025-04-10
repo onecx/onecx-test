@@ -1,5 +1,6 @@
 deployment:
   operator: true
+  oidc: true
 
 product:
   info:

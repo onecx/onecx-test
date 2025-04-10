@@ -12,3 +12,8 @@ dependencies:
   repository: oci://ghcr.io/onecx/charts
   condition: "deployment.operator"
   alias: "operator"
+- name: onecx-test-oidc
+  version: "*-0"
+  repository: oci://ghcr.io/onecx/charts
+  condition: "deployment.oidc"
+  alias: "oidc"
