@@ -17,7 +17,7 @@ paths:
   /test/security:
     post:
       security:
-        - oauth2: [ ocx-tt-sec:read ]
+        - oauth2: [ ocx-ts-sec:exec ]
       tags:
         - test
       description: execute security test
