@@ -16,10 +16,8 @@ tags:
 paths:
   /test/security:
     post:
-      x-onecx:
-        permissions:
-          test:
-            - execute
+      security:
+        - oauth2: [ ocx-tt-sec:read ]
       tags:
         - test
       description: execute security test
@@ -46,6 +44,14 @@ paths:
               schema:
                 $ref: '#/components/schemas/ProblemDetailResponse'
 components:
+  securitySchemes:
+    oauth2:
+      type: oauth2
+      flows:
+        clientCredentials:
+          tokenUrl: https://oauth.simple.api/token
+          scopes:
+            ocx-ts-sec:exec: Grants access to execute security test
   schemas:
     SecurityTestRequest:
       type: object
