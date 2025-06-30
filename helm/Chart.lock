@@ -7,6 +7,6 @@ dependencies:
   version: 1.8.0-rc.3
 - name: onecx-test-oidc
   repository: oci://ghcr.io/onecx/charts
-  version: 1.1.0-rc.3
-digest: sha256:0cfa73988f63e3c68d394af5c70f08fdca5563707377945b012766f4fbd568a6
-generated: "2025-06-29T08:53:50.591877909Z"
+  version: 1.1.0-rc.4
+digest: sha256:72e464b373c833bbbb0288d2df846882ebc93dea9303d734e326627a5797796f
+generated: "2025-06-30T07:27:49.963021303Z"
