@@ -1,0 +1,5 @@
+* xref:documentation:onecx-test:index.adoc[Test]
++
+include::documentation:onecx-test-oidc:partial$nav.adoc[]
++
+include::documentation:onecx-test-operator:partial$nav.adoc[]
