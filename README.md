@@ -1,2 +1,2 @@
 # onecx-test
-OneCx test
+OneCX Test
