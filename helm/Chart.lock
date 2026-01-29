@@ -4,9 +4,9 @@ dependencies:
   version: 0.4.0
 - name: onecx-test-operator
   repository: oci://ghcr.io/onecx/charts
-  version: 1.11.0
+  version: 1.12.0-rc.1
 - name: onecx-test-oidc
   repository: oci://ghcr.io/onecx/charts
   version: 1.5.0-rc.1
-digest: sha256:d289732d21693e4d521579d3fc24a8ea9ad91cfc9728cc11255482c59d0fab97
-generated: "2026-01-29T02:02:49.54422671Z"
+digest: sha256:4aa81ac332907ea01081f1c0f4a22855ef1bfb56b7d84e8423e772a485d33e98
+generated: "2026-01-29T06:44:10.411713594Z"
