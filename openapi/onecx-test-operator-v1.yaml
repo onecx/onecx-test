@@ -14,7 +14,7 @@ info:
       date: 2026-04-27
       description: >-
         Added WARNING status to ExecutionStatus enum and updated description of the status field in SecurityTestResponse and SecurityTestExecution schemas.
-        Added detailedStatus field to SecurityTestResponse and SecurityTestExecution schemas to provide more detailed information about the execution status.  
+        Added detailedStatus field to SecurityTestResponse and replaced error with detailedStatus in SecurityTestExecution schemas to provide more detailed information about the execution status.  
     - version: 1.0.0
       description: Initial release      
 servers:
