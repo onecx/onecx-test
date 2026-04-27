@@ -3,12 +3,20 @@ openapi: 3.0.3
 info:
   title: onecx-test-operator
   description: OneCX Test Operator
-  version: 1.0.0
+  version: 1.1.0
   contact:
     email: "tkit_dev@1000kit.org"
   license:
     name: Apache 2.0
     url: http://www.apache.org/licenses/LICENSE-2.0.html
+  x-changelog:
+    - version: 1.1.0
+      date: 2026-04-27
+      description: >-
+        Added WARNING status to ExecutionStatus enum and updated description of the status field in SecurityTestResponse and SecurityTestExecution schemas.
+        Added detailedStatus field to SecurityTestResponse and SecurityTestExecution schemas to provide more detailed information about the execution status.  
+    - version: 1.0.0
+      description: Initial release      
 servers:
   - url: "http://onecx-test-operator:8080"
 tags:
@@ -79,6 +87,8 @@ components:
           type: string
         status:
           $ref: "#/components/schemas/ExecutionStatus"
+        detailedStatus:
+          type: string
         executions:
           type: array
           items:
@@ -100,7 +110,7 @@ components:
           type: integer
         status:
           $ref: "#/components/schemas/ExecutionStatus"
-        error:
+        detailedStatus:
           type: string
     ExecutionStatus:
       type: string
@@ -108,6 +118,7 @@ components:
         - OK
         - FAILED
         - ERROR
+        - WARNING
     ProblemDetailResponse:
       type: object
       properties:
